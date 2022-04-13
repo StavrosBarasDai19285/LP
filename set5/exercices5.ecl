@@ -59,5 +59,12 @@ reduce(Op,[X,Y|Rest],Sol):-
 	call(Mycall),
 	reduce(Op,[Z|Rest],Sol).
 	
+%exercice9
+%%%valid_queries/1
+valid_queries(P):-
+	P,
+	write(P),nl.
+
+	
 	
 	
